@@ -1,0 +1,51 @@
+/* RESPONSIVE DEO */
+.sm-nav {
+  /* navigation for small screen */
+  display: none;
+}
+.big-nav {
+  display: none;
+}
+.hamburger {
+  display: none;
+  margin-left: auto;
+  padding-right: 18px;
+  padding-top: 18px;
+  width: 66px;
+  height: 66px;
+}
+.hamburger .icon {
+  background-image: url("menu-button.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+}
+.hamburger.opened .icon {
+  background-image: url("close.png");
+}
+
+.screen-is-small .sm-nav-parent {
+  display: block;
+}
+.screen-is-big .sm-nav-parent {
+  display: none;
+}
+
+.screen-is-big .big-nav {
+  display: block;
+}
+
+.screen-is-small .sm-nav {
+  display: block;
+}
+.screen-is-small .hamburger {
+  display: block;
+}
+
+.drawer-menu {
+  padding-bottom: 20px;
+
+}
+
